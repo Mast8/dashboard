@@ -121,8 +121,8 @@ areaChart.render();
 
 // AREA CHART
 const pieChartOptions = {
-  series: [44, 55, 13, 33],
-  labels: ['New york', 'California', 'FLorida'],
+  series: [44, 55, 33],
+  labels: ['New york', 'California', 'Florida'],
   chart: {
     height: 350,
     type: 'donut',
