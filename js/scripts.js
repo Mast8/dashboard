@@ -23,7 +23,7 @@ function closeSidebar() {
 const barChartOptions = {
   series: [
     {
-      data: [10, 8, 6, 4, 2],
+      data: [15, 8, 6, 4, 2],
     },
   ],
   chart: {
@@ -118,3 +118,22 @@ const areaChart = new ApexCharts(
   areaChartOptions
 );
 areaChart.render();
+
+// AREA CHART
+const pieChartOptions = {
+  series: [44, 55, 13, 33],
+  labels: ['New york', 'California', 'FLorida'],
+  chart: {
+    height: 350,
+    type: 'donut',
+    toolbar: {
+      show: false,
+    },
+  },
+};
+
+const pieChart = new ApexCharts(
+  document.querySelector('#pie-chart'),
+  pieChartOptions
+);
+pieChart.render();
