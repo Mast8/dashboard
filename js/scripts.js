@@ -52,9 +52,7 @@ const barChartOptions = {
     categories: ['Laptop', 'Phone', 'Monitor', 'Headphones', 'Camera'],
   },
   yaxis: {
-    title: {
-      text: 'Count',
-    },
+    
   },
 };
 
@@ -96,15 +94,10 @@ const areaChartOptions = {
   },
   yaxis: [
     {
-      title: {
-        text: 'Purchase Orders',
-      },
+      
     },
     {
-      opposite: true,
-      title: {
-        text: 'Sales Orders',
-      },
+      
     },
   ],
   tooltip: {
